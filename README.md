@@ -11,7 +11,9 @@
         * Outliers detection(if present).
         * Encoding categorical variables.
         * Feature extraction.
-        * Spliting of data
+        * Spliting of data.
+        * Data Handling (Oversampling & Undersampling).
+        * Cross validations.
         * Applying suitable algorithms.
         * Performance Measurement.
         * Interpretation.
@@ -22,15 +24,43 @@
                             sigmoid function is represented by :
                                                           f(x) = 1/(1+exp(-beta*x)
                                                           
-       Disadvantages :
+                 Disadvantages :
                     number of features > number of observations it ,the algorithm leads to overfts.
                     non-linear probelms cannot be solved, because the boundary is linear.
                     
-        Assumptions :
-                * Independence of errors.
-                * Linearity in the logit for continuous variables.
-                * Absence of multicollinearity.
-                * Lack of strongly influential outliers.
+                 Assumptions :
+                   * Independence of errors.
+                   * Linearity in the logit for continuous variables.
+                   * Absence of multicollinearity.
+                   * Lack of strongly influential outliers.
+        
+      Decision Tree Classifier:
+                           A hierarchical structure which is used to predict continuous or classify categorical variables.
+                           if-else is used for each node in the tree to classify and the edges is to move the next state.
+                          
+                      Disadvantages :
+                          * Sensitive to outliers.
+                          * A problem of overfitting.
+                      Assumptions :
+                          * Statistical methods are used to oredering the variables as root node or internal node.
+                          * Feature values are preferred to be categorical.
+                          * Based on the attributes values records are distributed recurvesily.
+      Support Vector Machine :
+              A supervised learning algorithm which is used for both classification and regression problems.The objective of SVM algorithm is to find a hyperplane in an N-dimensional space that distinctly classifies the data points.
+              
+                     Disadvantages :
+                        * Not good for the data has more outliers, noise.
+                        * Performs poorly in imbalanced datasets.
+                     Assumptions :
+                        * The margin should be as large as possible.
+                        * The support vectors are the most useful data points because they are the ones most likely to be incorrectly classified.
+     Random Forest :
+     
+                   
+                           
+                               
+                
+       
                          
         
   
