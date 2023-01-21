@@ -67,7 +67,10 @@
                         No formal distributional assumptions.
                         note : Missing values should be handled from training the model.
 
-## Performance metrics :
+## Interpretation :
+       However the data is imbalanced , metrics should be considered is F beta score,where beta =1
+                        By comparing the f1 metric of the four classification models    gives the best score.
+        
            
                       
      
