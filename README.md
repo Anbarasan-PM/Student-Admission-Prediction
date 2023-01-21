@@ -19,7 +19,7 @@
         * Interpretation.
 ## Algorithms used:
        note : target variable is categorical variable (yes(1)/no(0)) type. Whether the student will select or not select.
-       Logistic Regression:
+      Logistic Regression:
                          A classification algorithm which is used to find the probability of success and events.It lerans a linear relationship from the data provided and introduces a non-linearity relationship using sigmoid function.
                             sigmoid function is represented by :
                                                           f(x) = 1/(1+exp(-beta*x)
@@ -35,8 +35,7 @@
                    * Lack of strongly influential outliers.
         
       Decision Tree Classifier:
-                           A hierarchical structure which is used to predict continuous or classify categorical variables.
-                           if-else is used for each node in the tree to classify and the edges is to move the next state.
+                              A hierarchical structure which is used to predict continuous or classify categorical variables.A "if-else" condition is used for each node in the tree to classify and the edges is to move the next state.
                           
                       Disadvantages :
                           * Sensitive to outliers.
@@ -54,7 +53,11 @@
                      Assumptions :
                         * The margin should be as large as possible.
                         * The support vectors are the most useful data points because they are the ones most likely to be incorrectly classified.
-     Random Forest :
+      Random Forest :
+                Random Forest is an ensemble learning technique ,which the target is predicted baed on majaority of votes from each bagging of models.
+                
+                        Disadvantages :
+                          * 
      
                    
                            
