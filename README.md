@@ -69,7 +69,8 @@
 
 ## Interpretation :
        However the data is imbalanced , metrics should be considered is F beta score,where beta =1
-                        By comparing the f1 metric of the four classification models    gives the best score.
+                        By comparing the f1 metric of the four classification models "random forest" calssifier gives the best score.
+                        Random Forest Classification algorithm is best suitable for this problem and the results is displayed in .
         
            
                       
