@@ -56,8 +56,20 @@
       Random Forest :
                 Random Forest is an ensemble learning technique ,which the target is predicted baed on majaority of votes from each bagging of models.
                 
+                        Advantages :
+                           * No sensitive to outliers.
+                           * No problem of overfitting.
+                           * Accuracy high.
+                           * Handle large datasets.
                         Disadvantages :
-                          * 
+                           * High computation required.
+                           * High resources required.
+                        No formal distributional assumptions.
+                        note : Missing values should be handled from training the model.
+
+## Performance metrics :
+           
+                      
      
                    
                            
